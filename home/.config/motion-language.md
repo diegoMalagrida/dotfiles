@@ -1,5 +1,7 @@
 # Lenguaje de movimiento y forma del sistema
 
+> 🇬🇧 [In English](motion-language.en.md)
+
 Fuente de verdad única para **todo lo que se mueve o tiene forma** en este
 escritorio: Hyprland, Quickshell (barra, notch, paneles, Ajustes), GTK y kitty.
 

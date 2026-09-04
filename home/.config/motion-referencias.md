@@ -1,5 +1,7 @@
 # Referencias de movimiento — lo que hacen los repos buenos
 
+> 🇬🇧 [In English](motion-references.en.md)
+
 Investigado el 2026-08-05 sobre los repos que te gustan. Guardado aquí porque
 sacarlo costó una tanda de búsqueda entera y no quiero que se pierda entre
 sesiones. Complementa a `~/.config/motion-language.md`, que es la spec.
