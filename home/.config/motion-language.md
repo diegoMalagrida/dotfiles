@@ -333,6 +333,14 @@ refresca solo. Si una barra de CPU se actualiza cada segundo, su transición dur
 **menos** que el intervalo de refresco o se ve permanentemente en movimiento sin
 que tú hayas hecho nada. Una animación que no responde a un acto tuyo es ruido.
 
+**Excepción registrada (2026-09-06): el aviso de grabación.** El punto rojo de
+«te están capturando la pantalla» guiña una vez cada 2 s: bajada y vuelta de
+opacidad, 2×130 ms (RESPUESTA, OutQuad). No es adorno, es un aviso de privacidad
+que debe distinguirse de un icono quieto. Antes latía en bucle continuo (900 ms,
+fuera de escala) y eso mantenía la ventana del shell repintándose a 60 fps justo
+mientras el codificador grababa; el guiño conserva la señal viva con ~1% del
+coste. Bucles permitidos: este guiño, mTick y los spinners de tarea en curso.
+
 ### Ley 8 — Un solo hueco en la capa de contenido
 
 `gaps_in 3` / `gaps_out 6` → entre dos ventanas quedan 6 px y hasta el borde de
